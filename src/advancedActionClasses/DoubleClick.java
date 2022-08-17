@@ -2,6 +2,7 @@ package advancedActionClasses;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +27,8 @@ public class DoubleClick {
 	driver.manage().window().maximize();
 	Thread.sleep(3000);
 	driver.get("http://seleniumlearn.com/double-click");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
+	
   }
 
 }
