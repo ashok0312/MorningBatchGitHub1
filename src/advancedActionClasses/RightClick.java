@@ -13,7 +13,7 @@ public class RightClick {
   public void rightClick() throws InterruptedException {
 	  
 	  Actions ashok =new Actions (driver);
-	  Thread.sleep(1000);
+	  Thread.sleep(3000);
 	  ashok.contextClick(driver.findElement(By.xpath("//a[normalize-space()='Linux']"))).build().perform();
   }
   @BeforeTest
