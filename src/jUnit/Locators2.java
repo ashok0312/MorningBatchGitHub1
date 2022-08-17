@@ -24,7 +24,7 @@ class Locators2 {
 		
 		driver.manage().window().maximize();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 
 	@AfterAll
