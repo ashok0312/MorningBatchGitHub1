@@ -11,9 +11,6 @@
       <class name="testNGDemo.TestNGxml2">
         <methods>
           <include name="beforeClass"/>
-          <include name="loginID"/>
-          <include name="captcha"/>
-          <include name="password"/>
           <include name="login"/>
         </methods>
       </class> <!-- testNGDemo.TestNGxml2 -->

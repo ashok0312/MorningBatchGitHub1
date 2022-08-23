@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGDemo.Log4jDemo">
+      <class name="testNGDemo.Assertions">
         <methods>
-          <include name="Log4j"/>
+          <include name="assertions"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- testNGDemo.Log4jDemo -->
+      </class> <!-- testNGDemo.Assertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

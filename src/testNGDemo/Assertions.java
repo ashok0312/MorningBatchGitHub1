@@ -14,7 +14,7 @@ public class Assertions {
   public void assertions () {
 	  driver.get("http://www.tirupatinews.in/");
 	//  String expTitle = "Ashok";
-	  String expTitle = "ChandrA";
+	  String expTitle = "Mytri";
 	  System.out.println("Expected Website Title is-"+expTitle);
 	  String actTitle = driver.getTitle();
 	  System.out.println("Actual Website Title is -"+actTitle);

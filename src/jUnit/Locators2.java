@@ -20,9 +20,9 @@ class Locators2 {
 		
 		driver = new ChromeDriver ();
 		
-		driver.get("https://www.facebook.com");
-		
 		driver.manage().window().maximize();
+		
+		driver.get("https://www.facebook.com");
 		
 		Thread.sleep(5000);
 	}
@@ -37,7 +37,7 @@ class Locators2 {
 		
 		Thread .sleep(2000);
 		
-		driver.findElement(By.name("pass")).sendKeys("");
+		driver.findElement(By.name("pass")).sendKeys("assss");
 		
 		Thread.sleep(3000);
 		

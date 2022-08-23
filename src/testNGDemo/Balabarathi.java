@@ -10,10 +10,14 @@ import org.testng.annotations.BeforeTest;
 public class Balabarathi {
 	WebDriver driver ;
   @Test
-  public void login() {
+  public void login() throws Exception {
 	  driver.findElement(By.xpath("//*[@id=\"text-13263966988\"]")).sendKeys("ASHOK");
 	  driver.findElement(By.xpath("//*[@id=\"text-241482569216\"]")).sendKeys("kumar Gudivada");
 	  driver.findElement(By.xpath("//*[@id=\"text-23732060291\"]")).sendKeys("ashokgudivada@gmail.com");
+	//  driver.findElement(By.xpath("//*[@id=\"erf_form_381\"]/div/div[5]/div/div/div/div[2]")).click();
+	//  Thread.sleep(3000);
+	 // driver.findElement(By.xpath("//*[@id=\"iti-item-in\"]/span[1]")).click();
+	  //Thread.sleep(3000);
 	  driver.findElement(By.xpath("//*[@id=\"field-DVYLZM9QELAAq8K\"]")).sendKeys("9966996666");
 	  driver.findElement(By.xpath("//input[@id='field-krP8MPeuzRrukdo']")).sendKeys("sai mahal center");
 	  driver.findElement(By.xpath("//input[@id='field-IQsTTT9SxEPs3LH']")).sendKeys("vuyyuru");
