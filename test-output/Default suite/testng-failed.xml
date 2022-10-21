@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGDemo.Assertions">
+      <class name="testNGDemo.CrmDms">
         <methods>
-          <include name="assertions"/>
           <include name="beforeTest"/>
+          <include name="LoginValidUserIdAndPassword"/>
+          <include name="TabVehicle"/>
         </methods>
-      </class> <!-- testNGDemo.Assertions -->
+      </class> <!-- testNGDemo.CrmDms -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
